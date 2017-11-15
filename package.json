@@ -1,0 +1,14 @@
+{
+  "name": "console-dog",
+  "version": "0.0.1",
+  "description": "Translates console.log statements for other species.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Aaron Price",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
