@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/aaron-price/console-dog.svg?branch=master)](https://travis-ci.org/aaron-price/console-dog)
+
 # Usage
 ```bash
 npm i -S console-dog
