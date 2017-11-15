@@ -10,15 +10,15 @@ const sounds = [
 let output_data = ""
 const storeLog = inputs => (output_data += inputs);
 test("console.dog Hi", () => {
-  console["log"] = jest.fn(storeLog);
+    console["log"] = jest.fn(storeLog);
 
-  require("./index.js")
-  console.dog('Hi')
-  let matches = 0
-  sounds.forEach(sound => {
-      if (output_data.indexOf(sound) !== -1) { matches++ }
-  })
+    require("./index.js")
+    console.dog('Hi')
+    let matches = 0
+    sounds.forEach(sound => {
+        if (output_data.indexOf(sound) !== -1) { matches++ }
+    })
 
-  expect(matches).toBeGreaterThan(0)
-  expect(output_data).not.toBe('Hi')
-});
+    expect(matches).toBeGreaterThan(0)
+    expect(output_data).not.toBe('Hi')
+})
