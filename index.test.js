@@ -7,12 +7,12 @@ const sounds = [
     '*chases own tail*',
     '*plays fetch*',
 ]
-let output_data = "";
-storeLog = inputs => (output_data += inputs);
+let output_data = ""
+const storeLog = inputs => (output_data += inputs);
 test("console.dog Hi", () => {
   console["log"] = jest.fn(storeLog);
 
-  require("./index.js");
+  require("./index.js")
   console.dog('Hi')
   let matches = 0
   sounds.forEach(sound => {
