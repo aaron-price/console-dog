@@ -13,7 +13,7 @@ console.dog = function(str) {
         return str.length <= acc.length
             ? acc
             : acc + sounds[Math.floor(Math.random() * sounds.length)] + ' '
-    }, "")
+    }, '')
 
     console.log(value)
 }

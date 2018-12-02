@@ -14,4 +14,4 @@ console.dog('Hello World') // woof bark howl
 
 This pun was brought to you by [Aaron Price](https://github.com/aaron-price). Hire me!
 
-Also amusing; this script is 413 bytes.
+Also amusing: this script is 419 bytes.
