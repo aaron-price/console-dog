@@ -15,5 +15,5 @@ console.dog = function(str) {
             : acc + sounds[Math.floor(Math.random() * sounds.length)] + ' '
     }, "")
 
-    return value
+    console.log(value)
 }
