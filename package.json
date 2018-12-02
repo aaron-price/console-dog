@@ -4,12 +4,6 @@
   "description": "Translates console.log statements for other species.",
   "main": "index.js",
   "repository": "https://github.com/aaron-price/console-dog",
-  "scripts": {
-    "test": "jest"
-  },
   "author": "Aaron Price",
-  "license": "MIT",
-  "devDependencies": {
-    "jest": "^21.2.1"
-  }
+  "license": "MIT"
 }

@@ -8,12 +8,12 @@ console.dog = function(str) {
         '*chases own tail*',
         '*plays fetch*'
     ]
-    var value = ''
-    while (value.length < str.length) {
-        // Add space
-        if (value !== '') { value += ' ' }
-        // Add a random sound
-        value += sounds[Math.floor(Math.random() * sounds.length)]
-    }
-    console.log(value)
+
+    var value = str.split('').reduce(function(acc, curr) {
+        return str.length <= acc.length
+            ? acc
+            : acc + sounds[Math.floor(Math.random() * sounds.length)] + ' '
+    }, "")
+
+    return value
 }
